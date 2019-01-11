@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BlackJack2</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="send_button">Send</string>
+    <string name="edit_message_hint">This is a hint I guess</string>
+    <string name="hit_button">Hit</string>
+    <string name="stand_button">Stand</string>
+</resources>

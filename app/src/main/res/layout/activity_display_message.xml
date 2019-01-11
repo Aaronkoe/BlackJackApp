@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="56dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginTop="24dp"
+        android:text="Dealer"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/DealerFaceDown"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/DealerCard1"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/DealerFaceDown"
+        app:layout_constraintTop_toTopOf="@+id/DealerFaceDown"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard1"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard2"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard1"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard3"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard2"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard4"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard3"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard3"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard5"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard4"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard4"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard6"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard5"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard5"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/PlayerCard7"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PlayerCard6"
+        app:layout_constraintStart_toStartOf="@+id/PlayerCard6"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/DealerCard3"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/DealerCard1"
+        app:layout_constraintTop_toTopOf="@+id/DealerCard1"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/DealerCard4"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/DealerCard3"
+        app:layout_constraintTop_toTopOf="@+id/DealerCard3"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/DealerCard5"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/DealerCard4"
+        app:layout_constraintTop_toTopOf="@+id/DealerCard4"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <ImageView
+        android:id="@+id/DealerCard6"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/DealerCard5"
+        app:layout_constraintTop_toTopOf="@+id/DealerCard5"
+        app:srcCompat="@drawable/card_red_joker" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="Stand"
+        android:text="@string/stand_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="HitPlayer"
+        android:text="@string/hit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
